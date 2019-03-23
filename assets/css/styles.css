@@ -1,0 +1,87 @@
+/*---------------------- General --------------------*/
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+
+}
+
+/*----------------------nav --------------------*/
+
+.navbar {
+    margin-bottom: 0;
+    width: 100%;
+    background-color: rgba(211, 211, 211, .2);
+    border: 0;
+    position: fixed;
+
+}
+
+
+
+/* ensure dropdown is visible on mobile due to transparency of full size nav */
+
+@media screen and (max-width: 567px) {
+    .navbar-collapse {
+        background-color: gray;
+        opacity: .98;
+        padding-left: 20px;
+
+    }
+
+}
+
+.navbar .navbar-toggler {
+    border: 0;
+}
+
+.navbar .navbar-brand {
+    font-weight: bold;
+}
+
+.navbar .navbar-nav a {
+    font-weight: bold;
+}
+
+
+/* Top Intro section on each page*/
+
+.intro-container {
+    height: 90vh;
+    background: url('../images/background-monkees.jpg') no-repeat top left fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: -1;
+
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.jumbotron .intro-text {
+    color: #a7a7a7;
+    margin: 25px 0;
+}
+
+

@@ -1,7 +1,7 @@
 /*---------------------- General --------------------*/
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: 'Margarine', cursive;
 }
 
 .opaque-overlay {
@@ -14,6 +14,13 @@ body {
 
 }
 
+/*----------------------background colours --------------------*/
+
+.footer-bg-colour {
+
+    background-color: rgb(211, 211, 211);
+}
+
 /*----------------------nav --------------------*/
 
 .navbar {
@@ -23,24 +30,17 @@ body {
     border: 0;
     position: fixed;
 
-}
-
-
-
-/* ensure dropdown is visible on mobile due to transparency of full size nav */
-
-@media screen and (max-width: 567px) {
-    .navbar-collapse {
-        background-color: gray;
-        opacity: .98;
-        padding-left: 20px;
-
-    }
 
 }
 
-.navbar .navbar-toggler {
-    border: 0;
+/*changing color of nav button to match colour scheme */
+.navbar-custom {
+    background-color: #45a29e;
+}
+.navbar-brand{
+   padding: 5px 10px;
+    background-color: #45a29e;
+    opacity: .95;
 }
 
 .navbar .navbar-brand {
@@ -84,4 +84,84 @@ body {
     margin: 25px 0;
 }
 
+.jumbotron-content {}
+
+
+/*----------------------footer --------------------*/
+
+footer {
+
+    color: #fafafa;
+    min-height: 80px;
+    margin: 0;
+
+
+
+}
+
+.social-links {
+    padding-bottom: 6px;
+    padding-top: 10px;
+    position: relative;
+    float: right;
+    clear: both;
+}
+
+.social-links li a i {
+    width: 24px;
+    height: 24px;
+    padding: 8px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #45a29e;
+    transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #66fcf1;
+}
+
+.footer-text {
+    padding: 12px;
+    font-size: 13px;
+    line-height: 15px;
+    color: #fafafa;
+    background-color: #45a29e;
+    
+
+}
+
+
+/* -------------------------------media queries---------------------------- */
+
+/* ensuring that content centres on mobile device when footer sections stack */
+
+@media screen and (max-width: 567px) {
+    .social-links {
+
+        float: none;
+        text-align: center;
+
+    }
+    .footer-text {
+        text-align: center;
+    }
+}
+
+/* ensure dropdown is visible on mobile due to transparency of full size nav */
+
+@media screen and (max-width: 567px) {
+    .navbar-collapse {
+        background-color: #45a29e;
+        opacity: .98;
+        padding-left: 20px;
+        
+        
+
+    }
+
+}
 

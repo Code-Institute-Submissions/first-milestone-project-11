@@ -28,7 +28,7 @@ body {
     margin-bottom: 0;
     width: 100%;
     background-color: black;
-    opacity: .96;
+    opacity: .86;
     border: 0;
     position: fixed;
     z-index: 1;
@@ -62,7 +62,7 @@ body {
 /* Top Intro section on each page*/
 
 .intro-container {
-    height: 90vh;
+    height: 70vh;
     background: url('../images/background-monkees.jpg') no-repeat top left fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -116,6 +116,12 @@ body {
 }
 
 .card-body {
+    text-align: center;
+}
+
+
+/*----------------------video player in homepage --------------------*/
+.video-intro{
     text-align: center;
 }
 

@@ -62,8 +62,9 @@ body {
 /* Top Intro section on each page*/
 
 .intro-container {
-    height: 70vh;
-    background: url('../images/background-monkees.jpg') no-repeat top left fixed;
+    height: 80vh;
+    background: url('../images/background-monkees.jpg') no-repeat  fixed;
+    
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -125,7 +126,7 @@ body {
 
 /*----------------------video player in homepage --------------------*/
 
-.video-intro {
+.text-intro {
     text-align: center;
 
 }
@@ -176,6 +177,13 @@ footer {
 }
 
 
+/* -------------------------------image carousel---------------------------- */
+  .carousel-inner img {
+      width: 90%;
+      height: 90%;
+  }
+
+
 /* -------------------------------media queries---------------------------- */
 
 /* ensuring that content centres on mobile device when footer sections stack */
@@ -206,7 +214,7 @@ footer {
 /*--aligning text for video section on home for screens greater than mobile --*/
 @media screen and (min-width: 568px) {
 
-    .video-intro {
+    .text-intro {
         margin-left: 13%;
         margin-right: 13%;
     }

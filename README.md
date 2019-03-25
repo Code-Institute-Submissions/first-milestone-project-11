@@ -15,14 +15,30 @@ In this project we are required to build a website for a band.The requirements a
 
 # UX
 
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+I decided to go with a clean minimal interface, to allow users get the information the want with the with no more that 2 clicks. 
 
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
+I based my colour palette on blue (/#45a29b and /#66fc) and black
 
-    As a user type, I want to perform an action, so that I can achieve a goal.
+I used the google font 'Margarine' as it was most similar to the original 'hobo' font used in the Monkees album covers.
 
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
-Features
+### User types
+
+My user type are as per below
+
+    As a user i want to be able to view the latest event news on the Monkees
+    
+    As a user i want to be able to view images of the Monkees
+    
+    As a user i want to be able to view video of the Monkees
+    
+    As a user i want to be able to listen to some music tracks of the Monkees
+    
+    As a user i want to be able to submit my details to be contact in relation to news and events of the Monkees
+    
+### Wireframes
+I have created wireframes of each page and they can be found in the /wireframes folder
+
+### Features
 
 In this section, you should go over the different parts of your project, and describe each in a sentence or so.
 Existing Features

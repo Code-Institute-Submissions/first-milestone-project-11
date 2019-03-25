@@ -19,7 +19,7 @@ body {
 .footer-bg-colour {
 
     background-color: rgb(211, 211, 211);
-   
+
 }
 
 /*----------------------nav --------------------*/
@@ -28,7 +28,7 @@ body {
     margin-bottom: 0;
     width: 100%;
     background-color: black;
-    opacity: .86;
+    opacity: .95;
     border: 0;
     position: fixed;
     z-index: 1;
@@ -39,7 +39,7 @@ body {
 
 .navbar-custom {
     background-color: #45a29e;
- 
+
 
 }
 
@@ -96,21 +96,24 @@ body {
 /*----------------------triple module section on homepage --------------------*/
 
 .triple-module {
-    margin: 5%;
+    margin: 2%;
     border-color: #45a29e;
     z-index: -2;
 }
 
-.card{
+.card {
     border: none;
 }
+
 .btn-primary {
     color: #fff;
     background-color: #45a29e;
     border-color: #66fcf1;
 }
 
-.btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:focus {
     background-color: #66fcf1;
     border-color: #45a29e;
 }
@@ -121,8 +124,10 @@ body {
 
 
 /*----------------------video player in homepage --------------------*/
-.video-intro{
+
+.video-intro {
     text-align: center;
+
 }
 
 /*----------------------footer --------------------*/
@@ -195,8 +200,14 @@ footer {
         opacity: .98;
         padding-left: 20px;
 
-
-
     }
+}
 
+/*--aligning text for video section on home for screens greater than mobile --*/
+@media screen and (min-width: 568px) {
+
+    .video-intro {
+        margin-left: 13%;
+        margin-right: 13%;
+    }
 }

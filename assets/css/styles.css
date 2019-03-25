@@ -36,6 +36,14 @@ body {
 /*changing color of nav button to match colour scheme */
 .navbar-custom {
     background-color: #45a29e;
+    
+}
+
+.fa-bars{
+    color: #45a29e;
+    background-color: red;
+    font-size: 24px;
+  
 }
 .navbar-brand{
    padding: 5px 10px;

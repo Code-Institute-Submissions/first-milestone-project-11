@@ -47,7 +47,7 @@ body {
 .navbar-brand {
     padding: 5px 10px;
     background-color: #45a29e;
-    opacity: .98;
+   
 }
 
 .navbar .navbar-brand {
@@ -58,6 +58,9 @@ body {
     font-weight: bold;
 }
 
+.navbar{
+    opacity: .9;
+}
 
 /* Top Intro section on each page*/
 
@@ -183,7 +186,13 @@ footer {
       height: 90%;
   }
 
+/* -------------------------------contact form---------------------------- */
 
+.form-group {
+
+    text-align: left;
+    border-color: #45a29e;
+}
 /* -------------------------------media queries---------------------------- */
 
 /* ensuring that content centres on mobile device when footer sections stack */
@@ -218,4 +227,9 @@ footer {
         margin-left: 13%;
         margin-right: 13%;
     }
+}
+
+@media screen and (min-width: 568px) {
+.alignsubmit{
+    
 }

@@ -60,7 +60,7 @@ body {
 
 .intro-container {
     height: 70vh;
-    background: url('../images/background-monkees.jpg') no-repeat  fixed;
+    background: url('../images/background-monkees.jpg') no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -119,40 +119,44 @@ body {
     text-align: center;
 }
 
-.fa-play-circle{
-   
+.fa-play-circle {
+
     font-size: 40px;
     padding: 3px;
     color: #45a29e;
 
 }
 
- .fa-newspaper{
+.fa-newspaper {
     font-size: 40px;
     padding: 3px;
     color: #45a29e;
 }
 
-.fa-file-signature{
+.fa-file-signature {
     font-size: 40px;
     padding: 3px;
     color: #45a29e;
 }
-.fa-film{
+
+.fa-film {
     font-size: 20px;
     padding: 3px;
     color: #45a29e;
 }
-.fa-music{
+
+.fa-music {
     font-size: 20px;
     padding: 3px;
     color: #45a29e;
 }
-.fa-smile-beam{
-      font-size: 40px;
+
+.fa-smile-beam {
+    font-size: 40px;
     padding: 3px;
     color: #45a29e;
 }
+
 /*----------------------video player in homepage --------------------*/
 
 .text-intro {
@@ -205,52 +209,59 @@ footer {
 
 
 }
+
 /*-------------------------------audio section-----------------------------*/
-audio{
-    width:100%;
+
+audio {
+    width: 100%;
     height: 40px;
 }
-.audio-image{
+
+.audio-image {
     height: auto;
     width: 100%;
     margin-bottom: 5%;
-   
+
 }
-.lyric{
-    
-}
-.modal-dialog{
+.modal-dialog {
     font-size: xx-small;
     max-width: 90%;
-    margin-left: 7
-        
+    margin-left: 7;
 }
-.modal-content{
-    padding-left: 10%;
-    background-image: url('../images/blank-notebook.jpg')  ;
-    background-size: cover;
-   font-family: 'Gochi Hand', cursive;
-   color: blue;
-   font-size: 1.5em;
-   max-width: 600px;
-   padding: 0;
-   padding-left: 5%
-    
-}
-.modal-body{
 
+.modal-content {
+    padding-left: 10%;
+    background-image: url('../images/blank-notebook.jpg');
+    background-size: cover;
+    font-family: 'Gochi Hand', cursive;
+    color: blue;
+    font-size: 1.5em;
+    max-width: 600px;
+    padding: 0;
+    padding-left: 5%
 }
-.modal-header{
-    max-width:95%;
+
+.modal-body {
+    padding-top: 0px margin-top: 0px;
+}
+
+.modal-header {
+    max-width: 95%;
     border-color: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
-    
+
+.close {
+    font-size: 3.5em;
+}
 
 /* -------------------------------image carousel---------------------------- */
-  .carousel-inner img {
-      width: 90%;
-      height: 90%;
-  }
+
+.carousel-inner img {
+    width: 90%;
+    height: 90%;
+}
 
 /* -------------------------------contact form---------------------------- */
 
@@ -261,21 +272,24 @@ audio{
 }
 
 /* -------------------------------events section---------------------------- */
+
 .text-event {
     margin-top: 10px;
     margin: 5% 13%;
-   
-    
+
+
 }
+
 .event-line {
     color: #45a29e;
     display: block;
     border-top: solid #45a29e;
     width: 100%;
-    
-    
-    
+
+
+
 }
+
 /* -------------------------------media queries---------------------------- */
 
 /* ensuring that content centres on mobile device when footer sections stack */
@@ -289,17 +303,18 @@ audio{
     }
     .footer-text {
         text-align: center;
-        
+
     }
 }
 
 /* reducing margins of main paragraaph sections on mobile views */
-@media screen and (max-width: 567px) {
-.text-intro {
-    text-align: center;
-    margin: 0;
 
-}
+@media screen and (max-width: 567px) {
+    .text-intro {
+        text-align: center;
+        margin: 0;
+
+    }
 }
 
 /* ensure dropdown is visible on mobile due to transparency of full size nav */
@@ -314,6 +329,7 @@ audio{
 }
 
 /*--aligning text for video section on home for screens greater than mobile --*/
+
 @media screen and (min-width: 568px) {
 
     .text-intro {
@@ -323,10 +339,11 @@ audio{
 }
 
 /*--aligning lyrics for audio section for screens larger than mobile --*/
+
 @media screen and (min-width: 568px) {
 
-.modal-dialog{
-    
-    max-width: 60%;
-    margin-left: 10%;
-}
+    .modal-dialog {
+
+        max-width: 60%;
+        margin-left: 10%;
+    }

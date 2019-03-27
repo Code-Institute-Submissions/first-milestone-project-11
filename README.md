@@ -40,46 +40,49 @@ I have created wireframes of each page and they can be found in the /wireframes 
 
 ### Features
 
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
-Existing Features
+##### Existing Features
 
-    Feature 1 - allows users X to achieve Y, by having them fill out Z
-    ...
+    Feature 1 - allows users to acess audio content by going to the gallery
+    Feature 2 - allows users to view lyrics of audio content in gallery
+    Feature 3 - allows users to view video content on the home page
+    Feature 4 - allows users to acess news and event content on the events page
+    Feature 5 - allows users to contact the monkees via the contact form
+    Feature 6 - allows users to click through to socail media links from the footer
+    
 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+##### Features Left to Implement
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-Features Left to Implement
+    Improved contact form validation via server side code
 
-    Another feature idea
+##### Technologies Used
+This project was coded using html, css and bootstrap 4.
+    Bootstrap 4
+        The project uses bootstrap 4 to allow full responsiveness
 
-Technologies Used
+## Testing
+Testing went as follows
 
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-    JQuery
-        The project uses JQuery to simplify DOM manipulation.
-
-Testing
-
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
+   
+     Homepage:
+         Go to the "Home" page
+         Click all nav links and ensure relevant page loads
+         Click all triple module links and ensure relevant page loads
+         Play video at bottom of main content.
+         Check all footer links
+         Ensure content is displaying as expected
+         View page in a mobile device
+         View page in multiple devices using chrome developer tools
+        
     Contact form:
         Go to the "Contact Us" page
         Try to submit the empty form and verify that an error message about the required fields appears
         Try to submit the form with an invalid email address and verify that a relevant error message appears
-        Try to submit the form with all inputs valid and verify that a success message appears.
+        Try to submit the form with all inputs valid and verify that a thank you page displays.
 
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-Deployment
+
+## Deployment
 
 This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 

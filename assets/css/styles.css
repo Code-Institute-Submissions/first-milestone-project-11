@@ -224,8 +224,16 @@ audio{
     font-size: xx-small;
     max-width: 90%;
     margin-left: 7%;
-    height: 80vh;
 }
+.modal-content{
+    padding-left: 10%;
+    
+}
+.modal-header{
+    max-width:95%;
+    border-color: #45a29e;
+}
+    
 
 /* -------------------------------image carousel---------------------------- */
   .carousel-inner img {
@@ -308,6 +316,6 @@ audio{
 
 .modal-dialog{
     font-size: x-small;
-    max-width: 80%;
-    margin-left: 7%;
+    max-width: 60%;
+    margin-left: 10%;
 }

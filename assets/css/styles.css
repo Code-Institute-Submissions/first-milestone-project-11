@@ -223,15 +223,27 @@ audio{
 .modal-dialog{
     font-size: xx-small;
     max-width: 90%;
-    margin-left: 7%;
+    margin-left: 7
+        
 }
 .modal-content{
     padding-left: 10%;
+    background-image: url('../images/blank-notebook.jpg')  ;
+    background-size: cover;
+   font-family: 'Gochi Hand', cursive;
+   color: blue;
+   font-size: 1.5em;
+   max-width: 600px;
+   padding: 0;
+   padding-left: 5%
     
+}
+.modal-body{
+
 }
 .modal-header{
     max-width:95%;
-    border-color: #45a29e;
+    border-color: transparent;
 }
     
 
@@ -315,7 +327,7 @@ audio{
 @media screen and (min-width: 568px) {
 
 .modal-dialog{
-    font-size: x-small;
+    
     max-width: 60%;
     margin-left: 10%;
 }

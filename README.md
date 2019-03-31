@@ -72,36 +72,50 @@ Testing went as follows
          Ensure content is displaying as expected
          View page in a mobile device
          View page in multiple devices using chrome developer tools
-        
-    Contact form:
-        Go to the "Contact Us" page
-        Try to submit the empty form and verify that an error message about the required fields appears
-        Try to submit the form with an invalid email address and verify that a relevant error message appears
-        Try to submit the form with all inputs valid and verify that a thank you page displays.
-
+ 
+      Gallery page:
+         Go to the "Gallery" page
+         Click all nav links and ensure relevant page loads
+         Click all view lyric links and ensure lyrics load
+         Click all audio links and ensure audio plays
+         Click through image gallery and ensure all imagery loads.
+         Check all footer links
+         Ensure content is displaying as expected
+         View page in a mobile device
+         View page in multiple devices using chrome developer tools    
+      
+      Event page:
+         Go to the "Events" page
+         Click all nav links and ensure relevant page loads
+         Ensure all events items load
+         Check all footer links
+         Ensure content is displaying as expected
+         View page in a mobile device
+         View page in multiple devices using chrome developer tools
+         
+     Contact page:
+         Go to the "Contact us" page
+         Click all nav links and ensure relevant page loads
+         Fill in form fields with invalid info and ensure form doesnt submit
+         FIll in form with valid info and ensure thank you page loads as expected
+         Check all footer links
+         Ensure content is displaying as expected
+         View page in a mobile device
+         View page in multiple devices using chrome developer tools
 
 
 
 ## Deployment
 
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
+All files where built in C9 ide
+FIles are commited to git on deployment and once pushed to github will display at the following url:
+https://alimgee.github.io/first-milestone-project/
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-
-    Different values for environment variables (Heroku Config Vars)?
-    Different configuration files?
-    Separate git branch?
-
-In addition, if it is not obvious, you should also describe how to run your code locally.
-Credits
-Content
-
-    The text for section Y was copied from the Wikipedia article Z
 
 Media
 
-    The photos used in this site were obtained from ...
+    The photos used in this site were obtained from code institute course git hub
+    Video file was sourced from you tube
+    Audio files source from code institute git hub
 
-Acknowledgements
 
-    I received inspiration for this project from X

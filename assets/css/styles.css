@@ -105,14 +105,15 @@ body {
 .btn-primary {
     color: #fff;
     background-color: #45a29e;
-    border-color: #66fcf1;
+    border-color: #398582;
 }
 
 .btn-primary:hover,
 .btn-primary:active,
 .btn-primary:focus {
-    background-color: #66fcf1;
+    background-color: 398582;
     border-color: #45a29e;
+     
 }
 
 .card-body {
@@ -167,77 +168,31 @@ body {
 
 /*----------------------footer --------------------*/
 
-footerOld {
-
-    color: #fafafa;
-    min-height: 80px;
-    margin: 0;
-    background-color: black;
-
-}
-
-.social-links {
-    padding-bottom: 6px;
-    padding-top: 10px;
-    position: relative;
-    float: right;
-    clear: both;
-}
-
-.social-links li a i {
-    width: 24px;
-    height: 24px;
-    padding: 8px 0;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 7px;
-    text-align: center;
-    color: #fafafa;
-    background: #45a29e;
-    transition: all 0.35s ease-in-out;
-}
-
-.social-links li a i:hover {
-    background: #66fcf1;
-}
-
-.footer-text {
-    padding: 12px;
-    font-size: 13px;
-    line-height: 15px;
-    color: #fafafa;
-    background-color: #45a29e;
-    text-align: center;
-
-
-}
-
 /* recoding footer after feedback*/
-.footerContent{
+
+.footerContent {
     background-color: black;
     height: auto;
 
-    
+
 }
-.social-icons{
-   
-}
-.socail-links{
+
+.socail-links {
     margin: 0;
     padding: 0;
 }
 
-.text-footer{
+.text-footer {
     margin-top: 5px;
-    margin-bottom: 8x
-    padding: 0px;
+    margin-bottom: 8x padding: 0px;
     font-size: xx-small;
 }
 
-.icons{
+.icons {
     width: 15px;
-     margin-top: 10px;
+    margin-top: 10px;
 }
+
 /*-------------------------------audio section-----------------------------*/
 
 audio {
@@ -251,6 +206,7 @@ audio {
     margin-bottom: 5%;
 
 }
+
 .modal-dialog {
     font-size: xx-small;
     max-width: 90%;
@@ -317,6 +273,8 @@ audio {
 
 
 }
+
+/* --------------------------------event section--------------------------- */
 
 /* -------------------------------media queries---------------------------- */
 

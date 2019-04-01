@@ -113,7 +113,7 @@ body {
 .btn-primary:focus {
     background-color: 398582;
     border-color: #45a29e;
-     
+
 }
 
 .card-body {
@@ -184,8 +184,7 @@ body {
 
 .text-footer {
     margin-top: 5px;
-    margin-bottom: 8x padding: 0px;
-    font-size: xx-small;
+    margin-bottom: 8x font-size: xx-small;
 }
 
 .icons {
@@ -333,3 +332,6 @@ audio {
         max-width: 60%;
         margin-left: 10%;
     }
+}
+
+

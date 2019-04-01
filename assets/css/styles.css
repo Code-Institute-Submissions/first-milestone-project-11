@@ -167,11 +167,12 @@ body {
 
 /*----------------------footer --------------------*/
 
-footer {
+footerOld {
 
     color: #fafafa;
     min-height: 80px;
     margin: 0;
+    background-color: black;
 
 }
 
@@ -206,10 +207,37 @@ footer {
     line-height: 15px;
     color: #fafafa;
     background-color: #45a29e;
+    text-align: center;
 
 
 }
 
+/* recoding footer after feedback*/
+.footerContent{
+    background-color: black;
+    height: auto;
+
+    
+}
+.social-icons{
+   
+}
+.socail-links{
+    margin: 0;
+    padding: 0;
+}
+
+.text-footer{
+    margin-top: 5px;
+    margin-bottom: 8x
+    padding: 0px;
+    font-size: xx-small;
+}
+
+.icons{
+    width: 15px;
+     margin-top: 10px;
+}
 /*-------------------------------audio section-----------------------------*/
 
 audio {

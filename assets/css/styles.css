@@ -184,7 +184,8 @@ body {
 
 .text-footer {
     margin-top: 5px;
-    margin-bottom: 8x font-size: xx-small;
+    margin-bottom: 8x;
+    font-size: 8px;
 }
 
 .icons {

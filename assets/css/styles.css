@@ -254,6 +254,12 @@ audio {
     margin: 5% 13%;
 }
 
+/* adding space to top of paragraphs in event items to create space between date and paragraph*/
+.text-event>p{
+    padding-top: 20px;
+  
+}
+
 .event-line {
     color: #45a29e;
     display: block;

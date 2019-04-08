@@ -55,7 +55,7 @@ body {
 /* Top Intro section on each page*/
 
 .intro-container {
-    height: 70vh;
+    height: 65vh;
     background: url('../images/background-monkees.jpg') no-repeat fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -71,6 +71,8 @@ body {
 
 .jumbotron {
     background-color: transparent;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 .jumbotron h1 {
@@ -280,6 +282,15 @@ audio {
 
     }
 }
+
+/* reducing vertical height of background image on intro section for medium plus screens */
+@media screen and (min-width: 568px) {
+    .intro-container {
+        height: 50vh;
+
+    }
+}
+
 
 /* ensure dropdown is visible on mobile due to transparency of full size nav */
 

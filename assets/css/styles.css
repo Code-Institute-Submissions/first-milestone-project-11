@@ -90,7 +90,8 @@ body {
 /*----------------------triple module section on homepage --------------------*/
 
 .triple-module {
-    margin: 2%;
+   
+    margin-top: 10%;
     border-color: #45a29e;
     z-index: -2;
 }
@@ -273,15 +274,7 @@ audio {
 
 
 
-/* reducing margins of main paragraaph sections on mobile views */
 
-@media screen and (max-width: 567px) {
-    .text-intro {
-        text-align: center;
-        margin: 0;
-
-    }
-}
 
 /* reducing vertical height of background image on intro section for medium plus screens */
 @media screen and (min-width: 568px) {

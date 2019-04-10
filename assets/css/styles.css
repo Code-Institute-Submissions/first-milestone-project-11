@@ -175,6 +175,7 @@ body {
 .socail-links {
     margin: 0;
     padding: 0;
+
 }
 
 .text-footer {
@@ -184,8 +185,41 @@ body {
 }
 
 .icons {
-    width: 24px;
+    width: 32px;
     margin-top: 10px;
+}
+
+.links{
+    margin-top: 10px
+}
+
+.fab {
+    width: 30px;
+    height: 30px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 18px;
+    line-height: 7px;
+    text-align: center;
+}
+
+.fab:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
 }
 
 /*-------------------------------audio section-----------------------------*/

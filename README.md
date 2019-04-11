@@ -102,6 +102,12 @@ Testing went as follows
          Ensure content is displaying as expected
          View page in a mobile device
          View page in multiple devices using chrome developer tools
+    
+    All pages
+        Put all through w3 html validator and css through w3 validator and fix any appropriate errors
+
+
+
 
 
 

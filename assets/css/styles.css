@@ -248,7 +248,7 @@ audio {
 .modal-dialog {
     font-size: xx-small;
     max-width: 90%;
-    margin-left: 7;
+    margin-left: 7px;
 }
 
 .modal-content {
@@ -259,12 +259,12 @@ audio {
     color: blue;
     font-size: 1.5em;
     max-width: 600px;
-    padding: 0;
     padding-left: 5%
 }
 
 .modal-body {
-    padding-top: 0px margin-top: 0px;
+    padding-top: 0px;
+    margin-top: 0px;
 }
 
 .modal-header {
